@@ -1,5 +1,6 @@
 import random
 
+a = 5
 def num_generate(min,max):
     number = random.randint(min,max)
     return number
