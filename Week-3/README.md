@@ -9,7 +9,7 @@ We will then start building more complex code and learn how to document it along
 ## Setting Up Git
 1. If you haven't already, [create an account on Github](http://github.com/) using your Imperial email address, or [add your Imperial email address to an existing Github account](https://help.github.com/en/articles/adding-an-email-address-to-your-github-account).
 
-2. Set up the git config file on your computer by setting the user name and email address. You can optionally set the other fields, if you want. You will need to only do this once. See the [Github tutorial on setting your username] (https://help.github.com/en/articles/setting-your-username-in-git) and [setting the email address in git](https://help.github.com/en/articles/setting-your-commit-email-address). You can also refer to pg 11 of Pro Git ebook for more details. To set the same username and email address for all git repos, in the terminal type the following:
+2. Set up the git config file on your computer by setting the user name and email address. You can optionally set the other fields, if you want. You will need to only do this once. See the [Github tutorial on setting your username] (https://help.github.com/en/articles/setting-your-username-in-git) and [setting the email address in git](https://help.github.com/en/articles/setting-your-commit-email-address). You can also refer to pg 10 of Pro Git ebook for more details. To set the same username and email address for all git repos, in the terminal type the following:
 
 ```
 git config --global user.namer "my-user-name"
