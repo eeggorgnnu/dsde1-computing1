@@ -16,7 +16,7 @@ comp_number = num_generate(minimum,maximum)
 guesses = 0
 
 while True:
-    
+
     guesses += 1
     user_guess = get_user_number()
 
@@ -27,6 +27,4 @@ while True:
 
     else:
         print("please try again")
-
-
 
