@@ -7,6 +7,16 @@ def period(length,gravity):
         print(period)
         return period
         
-    except ValueError or TypeError or ZeroDivisionError:
+    except ValueError:
+        raise ValueError
         print ("the numbers input were not suitable for the calculation")
 
+    except TypeError:
+        raise TypeError
+        print ("Pls use numbers")
+        
+    except ZeroDivisionError:
+        raise ZeroDivisionError
+        print ("you cant devide by zero!!!")
+
+period("hi",3)
